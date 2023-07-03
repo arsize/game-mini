@@ -1,0 +1,21 @@
+{
+  "name": "gamemini",
+  "version": "1.0.0",
+  "description": "game",
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/wechat-miniprogram": "^3.4.1",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "minigame-api-typings": "^3.7.4",
+    "prettier": "^2.8.8",
+    "typescript": "^5.1.6"
+  }
+}
