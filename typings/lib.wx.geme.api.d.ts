@@ -393,6 +393,11 @@ declare namespace WechatMinigame {
   }
   /** 画布对象 */
   interface Canvas {
+    removeEventListener(arg0: string, touchHandler: any): unknown
+    addEventListener(
+      /** 小程序帐号信息 */ arg0: string,
+      arg1: (e: any) => void
+    ): unknown
     /** 画布的高度 */
     height: number
     /** 画布的宽度 */
