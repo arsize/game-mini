@@ -59,7 +59,6 @@ declare namespace WechatMinigame {
   type AudioListener = any
 }
 
-declare const console: WechatMinigame.Console
 declare const wx: WechatMinigame.Wx
 /** 引入模块。返回模块通过 `module.exports` 或 `exports` 暴露的接口。 */
 declare function require(
